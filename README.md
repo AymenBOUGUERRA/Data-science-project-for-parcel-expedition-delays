@@ -183,8 +183,10 @@ Absolute accuracy in the main metric used.
 Predictions are rounded to the day.
 A prediction is true only and only if the rounded prediction is identical to the ground truth.
 The results were as follow 
-Approach One; random evaluation set: 87%(+-5%)
-Approach Two; exclusive dates set: 53%(+-17%)
+
+---------------------Approach One; random evaluation set: 87%(+-5%)-----------------------------
+---------------------Approach Two; exclusive dates set: 53%(+-17%)------------------------------
+
 •	The accuracy in this second approach is significantly lower than the first one.
 •	which indicates that our either our model have low generalization ability or that the dataframe and features that we composed aren’t so good
 •	we tried to investigate where this accuracy dropout came from with no success
