@@ -185,6 +185,7 @@ A prediction is true only and only if the rounded prediction is identical to the
 The results were as follow 
 
 ---------------------Approach One; random evaluation set: 87%(+-5%)-----------------------------
+
 ---------------------Approach Two; exclusive dates set: 53%(+-17%)------------------------------
 
 •	The accuracy in this second approach is significantly lower than the first one.
